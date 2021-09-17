@@ -1,0 +1,29 @@
+{
+  "name": "just-tech-news",
+  "version": "1.0.0",
+  "description": "a tech news website where users can post, upvote, and comment on links to news articles.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brookemadison/just-tech-news.git"
+  },
+  "keywords": [
+    "tech",
+    "news"
+  ],
+  "author": "Brooke Madison",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brookemadison/just-tech-news/issues"
+  },
+  "homepage": "https://github.com/brookemadison/just-tech-news#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5"
+  }
+}
