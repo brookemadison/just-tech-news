@@ -4,7 +4,8 @@
   "description": "a tech news website where users can post, upvote, and comment on links to news articles.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "seeds": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
